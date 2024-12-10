@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 /*
  * ALGORITMO BubbleSort(lista):
  *
