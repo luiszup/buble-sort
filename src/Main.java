@@ -20,6 +20,8 @@
  * 5 - O processo continua até que a lista esteja ordenada.
  */
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -35,9 +37,6 @@ public class Main {
                 }
             }
         }
-        System.out.println("Lista ordenada: ");
-        for (int num : lista) {
-            System.out.print(num + " ");
-        }
+        System.out.println("Lista ordenada: " + Arrays.toString(lista));
     }
 }
